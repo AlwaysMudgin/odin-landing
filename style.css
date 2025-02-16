@@ -55,13 +55,17 @@ a {
     display: flex;
     flex-direction: column;
     max-width: 300px;
-    gap: 8px;
+    gap: 10px;
 }
 
 .hero-head {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.hero-body {
+    margin-bottom: 5px;
 }
 
 .welcome button {
@@ -118,10 +122,15 @@ a {
 .blurb {
     background-color: #E5E7EB;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 50px 100px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     gap: 8px;
 }
 
